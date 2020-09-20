@@ -1,5 +1,3 @@
-// import fake from '../modules/info.js';
-// const api = fake();
 (
   function() {
     const links = document.querySelector('.links');
