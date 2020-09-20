@@ -2,7 +2,7 @@
   function() {
     const links = document.querySelector('.links');
     
-    fetch('http://127.0.0.1:5500/api/media.json')
+    fetch('https://odonatojunior.github.io/links/api/media.json')
       .then(res => res.json())
       .then(json => {
         json.forEach(element => createLink(links, element));
@@ -11,7 +11,7 @@
         console.log(error);
       });
 
-    fetch('http://127.0.0.1:5500/api/info.json')
+    fetch('https://odonatojunior.github.io/links/api/info.json')
       .then(res => res.json())
       .then(json => {
         json.forEach(e=>{
