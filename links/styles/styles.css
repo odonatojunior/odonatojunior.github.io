@@ -22,6 +22,10 @@ body[data-darkmode]{
   list-style-type: none;
   color: var(--text);
 }
+*::selection{
+  background: var(--secondary);
+  color: #fff;
+}
 
 body{
   font-family: Rubik, sans-serif;
