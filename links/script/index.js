@@ -2,7 +2,7 @@
   function() {
     const links = document.querySelector('.links');
     
-    fetch('https://odonatojunior.github.io/links/api/media.json')
+    fetch('https://my-json-server.typicode.com/odonatojunior/fake-apis/links')
       .then(res => res.json())
       .then(json => {
         json.forEach(element => createLink(links, element));
