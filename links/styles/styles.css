@@ -31,6 +31,10 @@ body{
   font-family: Rubik, sans-serif;
   background: var(--bg);
   transition: .3s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card{
@@ -38,6 +42,7 @@ body{
   text-align: center;
   
   max-width: 500px;
+  flex: 1 1 auto;
   margin: 1rem auto 1rem auto;
   padding: 2rem;
 
@@ -52,7 +57,6 @@ body{
 .pic{
   object-fit: cover;
   width: 160px;
-  border-radius: 50%;
   margin: 0 auto;
 }
 
