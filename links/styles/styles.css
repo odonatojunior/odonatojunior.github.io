@@ -31,7 +31,7 @@ body{
   font-family: Rubik, sans-serif;
   background: var(--bg);
   transition: .3s all;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   height: 100vh;
